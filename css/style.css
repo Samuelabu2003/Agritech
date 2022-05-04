@@ -1,89 +1,14 @@
 header {
-  position:relative; 
-  height:600px; 
-  margin-bottom: 10px;
+  position:relative;
+  height: 100vh;
 }
 #demo {
-  position:absolute;
+  position: absolute;
   width: 100%;
   top:0;
   z-index: -1;
-
 }
-.icodisease{
-  display: flex;
-  width: 50px;
-  height: 50px;
-}
-
-
-
-.icomap{
-  display: flex;
-  width: 50px;
-  height: 50px; 
-  
-}
-.content {
- background-color: green !important;
- padding: 30px;
- font-size: 18px;
- color: white;
- border-top: 4px solid yellow;
-}
-
-.services {
-  display: flex;
-  font-size: 19px;
-  
-  border: 1px solid black;
-}
-.services:hover{
-  background-color: yellow;
-}
-
-.carousel-control-prev-icon:hover{
-  background-color: yellow;
-}
-.carousel-control-next-icon:hover{
-  background-color: yellow;
-}
-.custom-icons{
-  width: 140px;
-  height: 140px;
-  background: green;
-  color: white;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 40px;
-  size: large;
-}
-.demo{
-  background-color: yellow; 
-  border: none;
-  padding:20px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  color: black;
-}
-.demo-2{
-  background-color: orange;
-  border: none;
-  padding: 20px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  cursor: pointer;
-  margin-top: 40px;
-  color: black;
+.nav-item{
+  padding-right: 100px;
 }
 
